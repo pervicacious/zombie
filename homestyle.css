@@ -1,5 +1,44 @@
 h1{
-	font-size: 400%;
-	color: #22901A;
-	font-weight: 600;
+	font-family: 'Creepster', cursive;
+	font-size: 420%;
+	color: #EA4B2A;
+	font-weight: 550;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #7AF904;
+}
+.std{
+	font-family: 'Freckle Face', cursive;
+	font-size: 150%;
+	color: #7AF904;
+	font-weight:100;
+}
+ol{
+	text-align:center; list-style-position:inside;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("back.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lower{
+	color: #E2F400;
+}
+.box{
+	 background-image: url("blackie.jpg");
+	width:500px;
+	opacity:0.8;
 }
